@@ -1,9 +1,11 @@
 ### Ciphers
 
 - **Caesar Cipher (`caesar_cipher.py`)**:
+
   - A substitution cipher where each letter in the plaintext is shifted by a fixed number of places down or up the alphabet.
 
 - **Atbash Cipher (`atbash_cipher.py`)**:
+
   - A substitution cipher where the alphabet is reversed. The first letter is substituted with the last letter, the second with the second-to-last, and so on.
 
 - **Affine Cipher (`affine_cipher.py`)**:
@@ -19,7 +21,7 @@ The `tests/` directory contains unit tests for each cipher implementation using 
 
 To use the Caesar Cipher for encryption or decryption:
 
-```bash
+````bash
 python ciphers/caesar_cipher.py
 
 To use the Atbash Cipher for encryption or decryption:
@@ -39,3 +41,4 @@ python -m unittest discover tests
 
 ### License
 This project is open-source and available under the MIT License.
+````
