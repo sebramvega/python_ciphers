@@ -21,24 +21,23 @@ The `tests/` directory contains unit tests for each cipher implementation using 
 
 To use the Caesar Cipher for encryption or decryption:
 
-````bash
+```bash
 python ciphers/caesar_cipher.py
-
+```
 To use the Atbash Cipher for encryption or decryption:
 
 ```bash
 python ciphers/atbash_cipher.py
-
+```
 To use the Affine Cipher for encryption or decryption:
 
 ```bash
 python ciphers/affine_cipher.py
-
+```
 To run the unit tests, navigate to the project root directory and use the following command:
 
 ```bash
 python -m unittest discover tests
-
+```
 ### License
-This project is open-source and available under the MIT License.
-````
+This project is open-source and available under the **MIT License**.
