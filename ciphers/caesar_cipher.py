@@ -10,6 +10,8 @@ def encrypt(plaintext, key):
     ciphertext = ""
     for letter in plaintext:
         letter = letter.lower()  # Convert letter to lowercase for consistency
+        if letter == " ":
+            ciphertext += " "
         if not letter == " ":
             index = letters.find(letter)  # Find the index of the letter in the alphabet
             if index == -1:  # If the letter is not found, keep it unchanged
@@ -31,6 +33,8 @@ def decrypt(ciphertext, key):
     plaintext = ""
     for letter in ciphertext:
         letter = letter.lower()  # Convert letter to lowercase for consistency
+        if letter == " e ":
+            plaintext += " "
         if not letter == " ":
             index = letters.find(letter)  # Find the index of the letter in the alphabet
             if index == -1:  # If the letter is not found, keep it unchanged
@@ -76,3 +80,4 @@ else:
     print(
         'Invalid choice. You must enter "e" for encryption or "d" for decryption to proceed'
     )
+    
